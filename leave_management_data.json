@@ -1,0 +1,65 @@
+{
+    "employees": [
+        {
+            "employee_id": 1,
+            "name": "Alice",
+            "department": "IT",
+            "leave_balance": 20
+        },
+        {
+            "employee_id": 2,
+            "name": "Bob",
+            "department": "HR",
+            "leave_balance": 20
+        },
+        {
+            "employee_id": 3,
+            "name": "Charlie",
+            "department": "Finance",
+            "leave_balance": 20
+        },
+        {
+            "employee_id": 4,
+            "name": "1",
+            "department": "7",
+            "leave_balance": 10
+        },
+        {
+            "employee_id": 5,
+            "name": "shivika",
+            "department": "cs",
+            "leave_balance": 20
+        },
+        {
+            "employee_id": 6,
+            "name": "amit",
+            "department": "jwelery",
+            "leave_balance": 20
+        }
+    ],
+    "leave_requests": [
+        {
+            "request_id": 1,
+            "employee_id": 4,
+            "days": 10,
+            "reason": "sick",
+            "status": "Approved"
+        },
+        {
+            "request_id": 2,
+            "employee_id": 2,
+            "days": 3,
+            "reason": "sick",
+            "status": "Pending"
+        },
+        {
+            "request_id": 3,
+            "employee_id": 2,
+            "days": 3,
+            "reason": "sick",
+            "status": "Pending"
+        }
+    ],
+    "next_employee_id": 7,
+    "next_request_id": 4
+}
